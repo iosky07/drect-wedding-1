@@ -6,7 +6,7 @@
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Wedding &mdash; 100% Free Fully Responsive HTML5 Template by FREEHTML5.co</title>
+	<title>drect invitation</title>
 
 
 
@@ -48,7 +48,7 @@
 	<!-- Icomoon Icon Fonts-->
 	<link rel="stylesheet" href="css/icomoon.css">
 	<!-- Bootstrap  -->
-	<link rel="stylesheet" href="css/bootstrap1.css">
+	<link rel="stylesheet" href="css_test/bootstrap1.css">
 
 	<!-- Magnific Popup -->
 	<link rel="stylesheet" href="css/magnific-popup.css">
@@ -66,12 +66,32 @@
 	<!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
+	<script type="text/javascript">
+			window.addEventListener('load', function () {
+				var audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+				var source = audioCtx.createBufferSource();
+				var xhr = new XMLHttpRequest();
+				xhr.open('GET', 'music/Daniel Castro - Ill Play The Blues For You.mp3');
+				xhr.responseType = 'arraybuffer';
+				xhr.addEventListener('load', function (r) {
+						audioCtx.decodeAudioData(
+										xhr.response,
+										function (buffer) {
+												source.buffer = buffer;
+												source.connect(audioCtx.destination);
+												source.loop = true;
+										});
+						source.start(0);
+				});
+				xhr.send();
+			});
+	</script>
 
 	</head>
 
-	<audio controls autoplay loop hidden>
+	<!-- <audio controls autoplay loop hidden>
     <source src="music/Daniel Castro - I'll Play The Blues For You.mp3" type="audio/mpeg">
-	</audio>
+	</audio> -->
 
 	<body>
 	<div class="fh5co-loader"></div>
@@ -80,33 +100,8 @@
 	<nav class="fh5co-nav" role="navigation">
 		<div class="container">
 			<div class="row">
-				<div class="col-xs-2">
-					<div id="fh5co-logo"><a href="index.html">Wedding<strong>.</strong></a></div>
-				</div>
-				<div class="col-xs-10 text-right menu-1">
-					<ul>
-						<li class="active"><a href="index.html">Home</a></li>
-						<li><a href="about.html">Story</a></li>
-						<li class="has-dropdown">
-							<a href="services.html">Services</a>
-							<ul class="dropdown">
-								<li><a href="#">Web Design</a></li>
-								<li><a href="#">eCommerce</a></li>
-								<li><a href="#">Branding</a></li>
-								<li><a href="#">API</a></li>
-							</ul>
-						</li>
-						<li class="has-dropdown">
-							<a href="gallery.html">Gallery</a>
-							<ul class="dropdown">
-								<li><a href="#">HTML5</a></li>
-								<li><a href="#">CSS3</a></li>
-								<li><a href="#">Sass</a></li>
-								<li><a href="#">jQuery</a></li>
-							</ul>
-						</li>
-						<li><a href="contact.html">Contact</a></li>
-					</ul>
+				<div class="col-xs-10">
+					<div id="fh5co-logo"><a href="index.html">Drect invitation<strong>.</strong></a></div>
 				</div>
 			</div>
 
@@ -120,7 +115,7 @@
 				<div class="col-md-8 col-md-offset-2 text-center">
 					<div class="display-t">
 						<div class="display-tc animate-box" data-animate-effect="fadeIn">
-							<h1>Joefrey &amp; Sheila</h1>
+							<h1>Ganif &amp; Dian</h1>
 							<h2>We Are Getting Married</h2>
 							<div class="simply-countdown simply-countdown-one"></div>
 							<p><a href="#" class="btn btn-default btn-sm">Save the date</a></p>
@@ -143,7 +138,7 @@
 			<div class="couple-wrap animate-box">
 				<div class="couple-half">
 					<div class="groom">
-						<img src="images/groom.jpg" alt="groom" class="img-responsive">
+						<img src="img/mempelai_wanita_2.jpg" alt="groom" class="img-responsive">
 					</div>
 					<div class="desc-groom">
 						<h3>Dian Nur Fajariati, S.Si.</h3>
@@ -154,7 +149,7 @@
 				<p class="heart text-center"><i class="icon-heart2"></i></p>
 				<div class="couple-half">
 					<div class="bride">
-						<img src="images/bride.jpg" alt="groom" class="img-responsive">
+						<img src="img/mempelai_pria_2.jpg" alt="groom" class="img-responsive">
 					</div>
 					<div class="desc-bride">
 						<h3>Ganif Rahmad Basuki, Amd. Kep.</h3>
@@ -166,7 +161,7 @@
 		</div>
 	</div>
 
-	<div id="fh5co-event" class="fh5co-bg" style="background-image:url(img/comment_bg.jpeg);" data-stellar-background-ratio="0.5">
+	<div id="fh5co-event" class="fh5co-bg" style="background-image:url(img/date_1.JPG);" data-stellar-background-ratio="0.5">
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row">
@@ -224,21 +219,22 @@
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
 					<span>Perjalanan</span>
 					<h2>Cerita Kami</h2>
-					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+					<p>Dan di antara tanda-tanda (kebesaran)-Nya ialah Dia menciptakan pasangan-pasangan untukmu dari jenismu sendiri, agar kamu cenderung dan merasa tenteram kepadanya, dan Dia menjadikan di antaramu rasa kasih dan sayang.</p>
+					<span>Q.S Ar-Rum Ayat 21</span>
 				</div>
 			</div>
-			<div class="row">
+			<!-- <div class="row">
 				<div class="col-md-12 col-md-offset-0">
 					<ul class="timeline animate-box">
 						<li class="animate-box">
 							<div class="timeline-badge" style="background-image:url(images/couple-1.jpeg);"></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
-									<h3 class="timeline-title">First We Meet</h3>
-									<span class="date">December 25, 2015</span>
+									<h3 class="timeline-title">Intimate Relationship 1</h3>
+									<span class="date">17 Maret 2023</span>
 								</div>
 								<div class="timeline-body">
-									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+
 								</div>
 							</div>
 						</li>
@@ -246,29 +242,17 @@
 							<div class="timeline-badge" style="background-image:url(images/couple-2.jpeg);"></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
-									<h3 class="timeline-title">First Date</h3>
-									<span class="date">December 28, 2015</span>
+									<h3 class="timeline-title">Intimate Relationship 2</h3>
+									<span class="date">29 April 2023</span>
 								</div>
 								<div class="timeline-body">
-									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-								</div>
-							</div>
-						</li>
-						<li class="animate-box">
-							<div class="timeline-badge" style="background-image:url(images/couple-3.jpeg);"></div>
-							<div class="timeline-panel">
-								<div class="timeline-heading">
-									<h3 class="timeline-title">In A Relationship</h3>
-									<span class="date">January 1, 2016</span>
-								</div>
-								<div class="timeline-body">
-									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+									
 								</div>
 							</div>
 						</li>
 			    	</ul>
 				</div>
-			</div>
+			</div> -->
 		</div>
 	</div>
 
@@ -278,7 +262,7 @@
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
 					<span>Memori</span>
 					<h2>Foto Pernikahan</h2>
-					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+					<!-- <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p> -->
 				</div>
 			</div>
 			<div class="row row-bottom-padded-md">
@@ -337,7 +321,7 @@
 							</a>
 						</li>
 
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(img/picture_7.jpg); ">
+						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(img/picture_7.JPG); ">
 							<a href="#" class="color-4">
 								<!-- <div class="case-studies-summary">
 									<span>35 Photos</span>
@@ -354,7 +338,7 @@
 								</div> -->
 							</a>
 						</li>
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(img/main_bg.jpg); ">
+						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(img/main_bg.JPG); ">
 							<a href="#" class="color-6">
 								<!-- <div class="case-studies-summary">
 									<span>56 Photos</span>
@@ -375,8 +359,8 @@
 
 			<div class="row animate-box">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-					<h2>We Offer Services</h2>
-					<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
+					<h2>Lokasi Acara</h2>
+					<!-- <p>Dan di antara tanda-tanda (kebesaran)-Nya ialah Dia menciptakan pasangan-pasangan untukmu dari jenismu sendiri, agar kamu cenderung dan merasa tenteram kepadanya, dan Dia menjadikan di antaramu rasa kasih dan sayang.</p> -->
 				</div>
 			</div>
 
@@ -387,8 +371,8 @@
 							<i class="icon-location2"></i>
 						</span>
 						<div class="feature-copy">
-							<h3>Lokasi Acara</h3>
-							<p>Kediaman Mempelai Wanita</p>
+							<!-- <h3>Lokasi Acara</h3> -->
+							<p><b>Kediaman Mempelai Wanita</b></p>
 							<p>Dusun Krajan C RT.003/RW. 024 Desa Wonorejo Kec. Kencong.</p>
 						</div>
 					</div>
@@ -446,9 +430,17 @@
 		<div class="container">
 			<div class="row">
 				<div class="row animate-box">
+					<?php
+						include 'connection.php';
+						$sql = mysqli_query($conn,"select * from comments");
+						// $count = mysqli_query($conn,"select count(*) from comments");
+						$ct = mysqli_num_rows($sql);
+					?>
+
 					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-						<span>Best Wishes</span>
-						<h2>Friends Wishes</h2>
+						<span>Harapan Terbaik</span>
+						<h2>Dari Temanku</h2>
+						<span><?php echo $ct ?> Komentar</span>
 					</div>
 				</div>
 				<div class="row">
@@ -456,12 +448,7 @@
 						<div class="wrap-testimony">
 							<div class="owl-carousel-fullwidth">
 								<?php
-									include 'connection.php';
-								?>
-
-								<?php
 								$no = 1;
-								$sql = mysqli_query($conn,"select * from comments");
 								while($data = mysqli_fetch_array($sql)){
 								?>
 								<div class="item">
@@ -469,13 +456,16 @@
 										<figure>
 											<img src="images/couple-1.jpg" alt="user">
 										</figure>
-										<span><?php echo $data['name'] ?></span>
+										<span>
+											<?php echo $no ?>.  <?php echo $data['name'] ?>
+										</span>
 										<blockquote>
 											<p>"<?php echo $data['comment'] ?>"</p>
 										</blockquote>
 									</div>
 								</div>
 								<?php
+								$no += 1;
 								}
 								?>
 							</div>
@@ -534,7 +524,7 @@
 	<!-- Waypoints -->
 	<script src="js/jquery.waypoints.min.js"></script>
 	<!-- Carousel -->
-	<script src="js/owl.carousel.min.js"></script>
+	<script src="jsc/owl.carousel.min.js"></script>
 	<!-- countTo -->
 	<script src="js/jquery.countTo.js"></script>
 
@@ -545,9 +535,9 @@
 	<script src="js/magnific-popup-options.js"></script>
 
 	<!-- // <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/0.0.1/prism.min.js"></script> -->
-	<script src="js/simplyCountdown.js"></script>
+	<script src="jsc/simplyCountdown1.js"></script>
 	<!-- Main -->
-	<script src="js/main.js"></script>
+	<script src="jsc/main.js"></script>
 
 	<script>
     var d = new Date(new Date().getTime() + 200 * 120 * 120 * 2000);
@@ -555,7 +545,7 @@
     // default example
     simplyCountdown('.simply-countdown-one', {
         year: 2023,
-        month: 7,
+        month: 6,
         day: 5,
 				hours: 18,
     });

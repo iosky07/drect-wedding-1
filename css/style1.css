@@ -97,6 +97,13 @@ h1, h2, h3, h4, h5, h6, figure {
   .fh5co-nav {
     padding: 20px 0;
   }
+  .fh5co-nav #fh5co-logo {
+    font-size: 25px !important;
+    margin: 0;
+    padding: 0;
+    line-height: 40px;
+    font-family: "Sacramento", Arial, serif;
+  }
 }
 .fh5co-nav #fh5co-logo {
   font-size: 40px;
@@ -318,7 +325,18 @@ h1, h2, h3, h4, h5, h6, figure {
 @media screen and (max-width: 768px) {
   .fh5co-cover {
     height: 600px;
-    background-position: -225px 0px !important;
+    background-image: url(../img/main_bg_mobile.jpg) !important;
+    /* background-position: -225px 0px !important; */
+  }
+  #fh5co-event,
+  .fh5co-bg {
+    background-size: 480px;
+    background-image: url(../img/date_2_mobile.jpg) !important;
+  }
+  #fh5co-started,
+  .fh5co-bg {
+    background-size: 450px;
+    background-image: url(../img/comment_2_mobile.jpg) !important;
   }
 }
 .fh5co-cover .display-t,
@@ -1172,7 +1190,7 @@ form label {
 }
 
 .fh5co-heading {
-  margin-bottom: 5em;
+  margin-bottom: 3em;
 }
 .fh5co-heading.fh5co-heading-sm {
   margin-bottom: 2em;
@@ -1210,7 +1228,7 @@ form label {
   text-align: center;
 }
 #fh5co-testimonial .wrap-testimony .testimony-slide span {
-  font-size: 12px;
+  font-size: 15px;
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: 700;
@@ -1239,7 +1257,7 @@ form label {
 }
 #fh5co-testimonial .wrap-testimony .testimony-slide blockquote {
   border: none;
-  margin: 30px auto;
+  margin: 10px auto;
   width: 50%;
   position: relative;
   -webkit-border-radius: 4px;
